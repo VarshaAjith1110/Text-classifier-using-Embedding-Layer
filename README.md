@@ -173,7 +173,7 @@ validation_proc_dataset = preprocess_dataset(validation_dataset, vectorizer, lab
 
 train_batch = next(train_proc_dataset.as_numpy_iterator())
 validation_batch = next(validation_proc_dataset.as_numpy_iterator())
-print('Name: Joyce Beulah R     Register Number: 212222230058      ')
+print('Name: Varsha Ajith     Register Number: 212221230118      ')
 print(f"Shape of the train batch: {train_batch[0].shape}")
 print(f"Shape of the validation batch: {validation_batch[0].shape}")
 

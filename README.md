@@ -88,7 +88,7 @@ def train_val_datasets(data):
 
 # Create the datasets
 train_dataset, validation_dataset = train_val_datasets(data)
-print('Name:Joyce Beulah R       Register Number: 212222230058')
+print('Name:Varsha Ajith       Register Number: 212221230118')
 print(f"There are {train_dataset.cardinality()} sentence-label pairs for training.\n")
 print(f"There are {validation_dataset.cardinality()} sentence-label pairs for validation.\n")
 
@@ -132,7 +132,7 @@ def fit_vectorizer(train_sentences, standardize_func):
 text_only_dataset = train_dataset.map(lambda text, label: text)
 vectorizer = fit_vectorizer(text_only_dataset, standardize_func)
 vocab_size = vectorizer.vocabulary_size()
-print('Name:Joyce Beulah R       Register Number: 212222230058  ')
+print('Name:Varsha Ajith       Register Number: 212221230118  ')
 print(f"Vocabulary contains {vocab_size} words\n")
 def fit_label_encoder(train_labels, validation_labels):
   
